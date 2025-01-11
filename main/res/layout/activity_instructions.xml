@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instructions">
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Instructions"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:id="@+id/how_to_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/instructions"
+        android:layout_marginTop="36dp"
+        android:text="Tap on one of the seven columns to drop your game piece into that column. Each player will alternate taking turns doing this. The first player to get four of their game pieces in a row wins. 'In a row' means in any of three ways: horizontally, vertically, or diagonally."
+        android:textSize="30dp"/>
+
+    <Button
+        android:layout_width="285dp"
+        android:layout_height="63dp"
+        android:layout_below="@id/how_to_play"
+        android:layout_marginTop="45dp"
+        android:onClick="goBack"
+        android:text="Back to Menu"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterPlayerNames">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Enter Your Player Name:"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="150dp" />
+
+    <Button
+        android:id="@+id/start_game"
+        android:layout_width="277dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/enter_name"
+        android:layout_marginTop="79dp"
+        android:onClick="startGame"
+        android:text="Start Game"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

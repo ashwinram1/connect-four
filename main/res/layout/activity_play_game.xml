@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayGame">
+
+<!--  COLUMN 0  -->
+    <Button
+        android:id="@+id/C0_button"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="6dp"
+        android:onClick="placePiece" />
+
+    <ImageView
+        android:id="@+id/R5C0"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/C0_button"
+        android:layout_marginTop="-6dp"
+        android:layout_marginLeft="6dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R4C0"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R5C0"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="6dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R3C0"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R4C0"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="6dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R2C0"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R3C0"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="6dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R1C0"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R2C0"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="6dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R0C0"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R1C0"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="6dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <!--  COLUMN 1  -->
+    <Button
+        android:id="@+id/C1_button"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="63dp"
+        android:onClick="placePiece" />
+
+    <ImageView
+        android:id="@+id/R5C1"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/C1_button"
+        android:layout_marginTop="-6dp"
+        android:layout_marginLeft="63dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R4C1"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R5C1"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="63dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R3C1"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R4C1"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="63dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R2C1"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R3C1"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="63dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R1C1"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R2C1"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="63dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R0C1"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R1C1"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="63dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <!--  COLUMN 2  -->
+    <Button
+        android:id="@+id/C2_button"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        android:onClick="placePiece" />
+
+    <ImageView
+        android:id="@+id/R5C2"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/C2_button"
+        android:layout_marginTop="-6dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R4C2"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R5C2"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R3C2"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R4C2"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R2C2"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R3C2"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R1C2"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R2C2"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R0C2"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R1C2"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <!--  COLUMN 3  -->
+    <Button
+        android:id="@+id/C3_button"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="177dp"
+        android:onClick="placePiece" />
+
+    <ImageView
+        android:id="@+id/R5C3"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/C3_button"
+        android:layout_marginTop="-6dp"
+        android:layout_marginLeft="177dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R4C3"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R5C3"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="177dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R3C3"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R4C3"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="177dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R2C3"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R3C3"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="177dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R1C3"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R2C3"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="177dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R0C3"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R1C3"
+        android:layout_marginLeft="177dp"
+        android:layout_marginTop="-2.48dp"
+        android:src="@drawable/game_board_slot" />
+
+    <!--  COLUMN 4  -->
+    <Button
+        android:id="@+id/C4_button"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="234dp"
+        android:onClick="placePiece" />
+
+    <ImageView
+        android:id="@+id/R5C4"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/C4_button"
+        android:layout_marginTop="-6dp"
+        android:layout_marginLeft="234dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R4C4"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R5C4"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="234dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R3C4"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R4C4"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="234dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R2C4"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R3C4"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="234dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R1C4"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R2C4"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="234dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R0C4"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R1C4"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="234dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <!--  COLUMN 5  -->
+    <Button
+        android:id="@+id/C5_button"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="291dp"
+        android:onClick="placePiece" />
+
+    <ImageView
+        android:id="@+id/R5C5"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/C5_button"
+        android:layout_marginTop="-6dp"
+        android:layout_marginLeft="291dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R4C5"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R5C5"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="291dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R3C5"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R4C5"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="291dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R2C5"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R3C5"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="291dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R1C5"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R2C5"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="291dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R0C5"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R1C5"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="291dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <!--  COLUMN 6  -->
+    <Button
+        android:id="@+id/C6_button"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="348dp"
+        android:onClick="placePiece" />
+
+    <ImageView
+        android:id="@+id/R5C6"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/C6_button"
+        android:layout_marginTop="-6dp"
+        android:layout_marginLeft="348dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R4C6"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R5C6"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="348dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R3C6"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R4C6"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="348dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R2C6"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R3C6"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="348dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R1C6"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R2C6"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="348dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <ImageView
+        android:id="@+id/R0C6"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/R1C6"
+        android:layout_marginTop="-2.48dp"
+        android:layout_marginLeft="348dp"
+        android:src="@drawable/game_board_slot"/>
+
+    <TextView
+        android:id="@+id/turn_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R0C3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Turn: "
+        android:textSize="40dp" />
+
+</RelativeLayout>
